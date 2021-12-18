@@ -1,8 +1,11 @@
 [package]
 name = "Rusty_rogue"
 version = "0.1.0"
+authors = ["Dan the Computer Man <pathf274@gmail.com>"]
 edition = "2021"
 
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
 
 [dependencies]
+rltk = { version = "0.8.1" }
+getrandom = { version = "0.2.3", features = ["js"] }
